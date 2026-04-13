@@ -14,7 +14,7 @@ int main(void) {
     // Deklarasi Variabel//
     int izin, suhu, radiasi, jam;
     // Blok Input//
-    printf("izin, suhu, radiasi, jam: ");
+    printf("izin suhu radiasi jam ");
     scanf("%d %d %d %d", &izin, &suhu, &radiasi, &jam);
     //Blok Proses//
     if (radiasi >= 6) {
@@ -29,7 +29,7 @@ int main(void) {
         printf("MASUK");}
     else if (izin == 2){
         printf("PEMERIKSAAN");}
-    else if (izin == 3 && radiasi == 0 && suhu < 380) {
+        else if (izin == 3 && radiasi == 0 && suhu < 380) {
         printf("MASUK");}
     else {
         printf("TOLAK");
