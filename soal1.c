@@ -9,7 +9,6 @@
  */
 
 #include <stdio.h>
-
 int main(void) {
     // Deklarasi Variabel//
     int izin, suhu, radiasi, jam;
@@ -34,8 +33,5 @@ int main(void) {
     else {
         printf("TOLAK");
     }
-        
     return 0;
 }
- 
- 
