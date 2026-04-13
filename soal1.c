@@ -17,21 +17,21 @@ int main(void) {
     scanf("%d %d %d %d", &izin, &suhu, &radiasi, &jam);
     //Blok Proses//
     if (radiasi >= 6) {
-        printf("TOLAK");} 
+        printf("TOLAK\n");} 
     else if (suhu >= 390) {
         printf("KARANTINA");}
     else if (izin == 1 && jam < 6 || jam > 20) {
-        printf("TOLAK");}
+        printf("TOLAK\n");}
     else if (izin == 1) {
-        printf("MASUK");}
+        printf("MASUK\n");}
     else if (izin == 2 && radiasi <= 2 && 8 < jam < 18) {
-        printf("MASUK");}
+        printf("MASUK\n ");}
     else if (izin == 2){
         printf("PEMERIKSAAN");}
         else if (izin == 3 && radiasi == 0 && suhu < 380) {
         printf("MASUK");}
     else {
-        printf("TOLAK");
+        printf("TOLAK\n");
     }
     return 0;
 }
